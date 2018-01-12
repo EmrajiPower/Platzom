@@ -1,0 +1,30 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idiomas inventado",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmrajiPower/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "javascript",
+    "js"
+  ],
+  "author": "Emmanuel Rangel <emmanu-0000@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmrajiPower/Platzom/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
